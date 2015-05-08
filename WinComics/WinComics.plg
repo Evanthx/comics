@@ -1,0 +1,76 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ComicClasses - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "c:\temp\RSP51.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/ComicClasses.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\code\comics\ComicClasses\ComicMaker.cpp"
+"C:\code\comics\ComicClasses\HTTPGet.cpp"
+]
+Creating command line "cl.exe @c:\temp\RSP51.tmp" 
+Creating temporary file "c:\temp\RSP52.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/ComicClasses.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\code\comics\ComicClasses\StdAfx.cpp"
+]
+Creating command line "cl.exe @c:\temp\RSP52.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Release\ComicClasses.lib"  .\Release\ComicMaker.obj .\Release\HTTPGet.obj .\Release\StdAfx.obj "
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+ComicMaker.cpp
+HTTPGet.cpp
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: WinComics - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/WinComics.res" /d "NDEBUG" "C:\code\comics\WinComics\WinComics.rc"" 
+Creating temporary file "c:\temp\RSP53.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "..\ComicClasses" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/WinComics.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\code\comics\WinComics\WinComics.cpp"
+"C:\code\comics\WinComics\WinComicsDlg.cpp"
+]
+Creating command line "cl.exe @c:\temp\RSP53.tmp" 
+Creating temporary file "c:\temp\RSP54.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "..\ComicClasses" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/WinComics.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\code\comics\WinComics\StdAfx.cpp"
+]
+Creating command line "cl.exe @c:\temp\RSP54.tmp" 
+Creating temporary file "c:\temp\RSP55.tmp" with contents
+[
+Wininet.lib Ws2_32.lib ComicClasses.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/ComicReader.pdb" /machine:I386 /out:"Release/ComicReader.exe" /libpath:"..\ComicClasses\Release" 
+.\Release\StdAfx.obj
+.\Release\WinComics.obj
+.\Release\WinComicsDlg.obj
+.\Release\WinComics.res
+\code\comics\ComicClasses\Release\ComicClasses.lib
+]
+Creating command line "link.exe @c:\temp\RSP55.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+WinComics.cpp
+WinComicsDlg.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4089: all references to "comdlg32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+ComicReader.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

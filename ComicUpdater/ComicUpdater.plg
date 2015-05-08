@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ComicClasses - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "c:\temp\RSP2B.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/ComicClasses.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\code\comics\ComicClasses\ComicMaker.cpp"
+"C:\code\comics\ComicClasses\HTTPGet.cpp"
+]
+Creating command line "cl.exe @c:\temp\RSP2B.tmp" 
+Creating temporary file "c:\temp\RSP2C.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/ComicClasses.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\code\comics\ComicClasses\StdAfx.cpp"
+]
+Creating command line "cl.exe @c:\temp\RSP2C.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Debug\ComicClassesD.lib"  .\Debug\ComicMaker.obj .\Debug\HTTPGet.obj .\Debug\StdAfx.obj "
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+ComicMaker.cpp
+HTTPGet.cpp
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: ComicUpdater - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/ComicUpdater.res" /d "_DEBUG" "C:\code\comics\ComicUpdater\ComicUpdater.rc"" 
+Creating temporary file "c:\temp\RSP2D.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "..\ComicClasses" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/ComicUpdater.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\code\comics\ComicUpdater\ComicUpdater.cpp"
+"C:\code\comics\ComicUpdater\ComicUpdaterDlg.cpp"
+]
+Creating command line "cl.exe @c:\temp\RSP2D.tmp" 
+Creating temporary file "c:\temp\RSP2E.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "..\ComicClasses" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/ComicUpdater.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\code\comics\ComicUpdater\StdAfx.cpp"
+]
+Creating command line "cl.exe @c:\temp\RSP2E.tmp" 
+Creating temporary file "c:\temp\RSP2F.tmp" with contents
+[
+Wininet.lib Ws2_32.lib ComicClassesD.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/ComicUpdater.pdb" /debug /machine:I386 /out:"Debug/ComicUpdater.exe" /pdbtype:sept /libpath:"..\ComicClasses\Debug" 
+.\Debug\ComicUpdater.obj
+.\Debug\ComicUpdaterDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\ComicUpdater.res
+\code\comics\ComicClasses\Debug\ComicClassesD.lib
+]
+Creating command line "link.exe @c:\temp\RSP2F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ComicUpdater.cpp
+ComicUpdaterDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ComicUpdater.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,46 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ComicClasses", "ComicClasses\ComicClasses.vcxproj", "{E161C4D6-9A31-48F5-8511-14E91B69ED57}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ComicSetup", "ComicSetup\ComicSetup.vcxproj", "{7435C0BB-4E46-4725-9149-47DEF9DDB2E3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinComics", "WinComics\WinComics.vcxproj", "{7DA003AB-0BD3-4621-B204-1A3DC650746F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ComicUpdater", "ComicUpdater\ComicUpdater.vcxproj", "{02C985E3-A3E8-40A7-8407-28331D8CBD33}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ComicUtility", "ComicUtility\ComicUtility.vcxproj", "{127A98A1-E9FA-40D6-B6F8-EC871F92DAEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E161C4D6-9A31-48F5-8511-14E91B69ED57}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E161C4D6-9A31-48F5-8511-14E91B69ED57}.Debug|Win32.Build.0 = Debug|Win32
+		{E161C4D6-9A31-48F5-8511-14E91B69ED57}.Release|Win32.ActiveCfg = Release|Win32
+		{E161C4D6-9A31-48F5-8511-14E91B69ED57}.Release|Win32.Build.0 = Release|Win32
+		{7435C0BB-4E46-4725-9149-47DEF9DDB2E3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7435C0BB-4E46-4725-9149-47DEF9DDB2E3}.Debug|Win32.Build.0 = Debug|Win32
+		{7435C0BB-4E46-4725-9149-47DEF9DDB2E3}.Release|Win32.ActiveCfg = Release|Win32
+		{7435C0BB-4E46-4725-9149-47DEF9DDB2E3}.Release|Win32.Build.0 = Release|Win32
+		{7DA003AB-0BD3-4621-B204-1A3DC650746F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7DA003AB-0BD3-4621-B204-1A3DC650746F}.Debug|Win32.Build.0 = Debug|Win32
+		{7DA003AB-0BD3-4621-B204-1A3DC650746F}.Release|Win32.ActiveCfg = Release|Win32
+		{7DA003AB-0BD3-4621-B204-1A3DC650746F}.Release|Win32.Build.0 = Release|Win32
+		{02C985E3-A3E8-40A7-8407-28331D8CBD33}.Debug|Win32.ActiveCfg = Debug|Win32
+		{02C985E3-A3E8-40A7-8407-28331D8CBD33}.Debug|Win32.Build.0 = Debug|Win32
+		{02C985E3-A3E8-40A7-8407-28331D8CBD33}.Release|Win32.ActiveCfg = Release|Win32
+		{02C985E3-A3E8-40A7-8407-28331D8CBD33}.Release|Win32.Build.0 = Release|Win32
+		{127A98A1-E9FA-40D6-B6F8-EC871F92DAEA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{127A98A1-E9FA-40D6-B6F8-EC871F92DAEA}.Debug|Win32.Build.0 = Debug|Win32
+		{127A98A1-E9FA-40D6-B6F8-EC871F92DAEA}.Release|Win32.ActiveCfg = Release|Win32
+		{127A98A1-E9FA-40D6-B6F8-EC871F92DAEA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+EndGlobal
